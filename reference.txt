@@ -1,0 +1,8 @@
+follow this url for applying policy for policy definition to the subscription with the name "tagging-policy".
+https://docs.microsoft.com/en-us/azure/governance/policy/assign-policy-portal
+Folloow this below url using Azure cli
+https://docs.microsoft.com/en-us/cli/azure/policy/assignment?view=azure-cli-latest
+Follow this refernce url for packer template
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer
+Follow this reference to setup terrafrom 
+https://docs.microsoft.com/en-us/azure/developer/terraform/quickstart-configure

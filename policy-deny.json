@@ -1,0 +1,21 @@
+// Give this policy definition a try:
+  {
+    // Replace the schema according to your azure account
+    "$schema": "http://schema.management.azure.com/schemas/2015-10-01-preview/policyDefinition.json",
+    "if": {
+      "allOf": [
+        {
+          "field": "tags",
+          "exists": "false"
+        },
+        {
+          "field": "type",
+        //   Give the resourcegrpup name of azure
+          "equals": "Microsoft.Resources/subscriptions/resourceGroups"
+        }
+      ]
+    },
+    "then": {
+      "effect": "deny"
+    }
+}
